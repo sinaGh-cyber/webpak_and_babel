@@ -1,17 +1,23 @@
+import './style.css';
+import './main.css';
+import { AppC } from './test';
+
 const saySina = () => {
-    console.log('sina');
-}
+  console.log('sina');
+};
 
 class App {
-    getName(){
-        console.log('hello');
-    }
+  getName() {
+    console.log('hello');
+  }
 }
 class AppB {
-    getName(){
-        console.log('hello B');
-    }
+  getName() {
+    console.log('hello B');
+  }
 }
+
 saySina();
 new App().getName();
 new AppB().getName();
+new AppC().getName();
