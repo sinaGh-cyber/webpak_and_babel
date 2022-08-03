@@ -1,7 +1,1 @@
-"use strict";
-
-var saySina = function saySina() {
-  console.log('sina');
-};
-
-saySina();
+(()=>{function e(e,n){if(!(e instanceof n))throw new TypeError("Cannot call a class as a function")}function n(e,n){for(var o=0;o<n.length;o++){var t=n[o];t.enumerable=t.enumerable||!1,t.configurable=!0,"value"in t&&(t.writable=!0),Object.defineProperty(e,t.key,t)}}function o(e,o,t){return o&&n(e.prototype,o),t&&n(e,t),Object.defineProperty(e,"prototype",{writable:!1}),e}var t=function(){function n(){e(this,n)}return o(n,[{key:"getName",value:function(){console.log("hello")}}]),n}(),r=function(){function n(){e(this,n)}return o(n,[{key:"getName",value:function(){console.log("hello B")}}]),n}();console.log("sina"),(new t).getName(),(new r).getName()})();
